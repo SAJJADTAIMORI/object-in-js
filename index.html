@@ -79,22 +79,22 @@
   const products = [
     {
         name: "Laptop",
-        price: 999.99,
+        price: 99999,
         description: "Powerful laptop for all your computing needs."
     },
     {
         name: "Headphones",
-        price: 79.99,
+        price: 7999,
         description: "High-quality headphones for immersive audio experience."
     },
     {
         name: "Smartphone",
-        price: 699.99,
+        price: 69999,
         description: "Advanced smartphone with cutting-edge features."
     },
     {
         name: "Tablet",
-        price: 449.99,
+        price: 44999,
         description: "Portable tablet for entertainment and productivity."
     },
     {
@@ -104,27 +104,27 @@
     },
     {
         name: "Camera",
-        price: 599.99,
+        price: 59999,
         description: "Capture life's moments with stunning clarity and detail."
     },
     {
         name: "Printer",
-        price: 199.99,
+        price: 19999,
         description: "Print documents and photos with exceptional quality."
     },
     {
         name: "Fitness Tracker",
-        price: 79.99,
+        price: 7999,
         description: "Monitor your health and track your workouts."
     },
     {
         name: "Bluetooth Earbuds",
-        price: 99.99,
+        price: 9999,
         description: "Wireless earbuds for on-the-go audio enjoyment."
     },
     {
         name: "Monitor",
-        price: 299.99,
+        price: 29999,
         description: "Upgrade your display for enhanced productivity."
     }
   ];
@@ -158,7 +158,7 @@
       // Create price element
       var price = document.createElement("p");
       price.classList.add("card-price");
-      price.textContent = "$" + product.price.toFixed(2);
+      price.textContent = "RS" + product.price.toFixed(2);
 
       // Append elements to the card
       content.appendChild(title);
